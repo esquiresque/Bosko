@@ -22,4 +22,6 @@ float: left;
 background-repeat: no-repeat;
 margin-left: 1em;
 z-index: 5001;
+transform: scale(0.8deg);
+top: -2em;
 }
