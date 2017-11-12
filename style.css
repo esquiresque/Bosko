@@ -4,8 +4,10 @@ margin:0;
 padding:0;
 }
 
-h2
+.HomePin
 {
-font-weight:700;
-color:red;
+width: 12em;
+height: 12em;
+position: absolute;
+float: left;
 }
