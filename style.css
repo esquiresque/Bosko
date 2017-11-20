@@ -1,7 +1,35 @@
+/*---ELEMENT DEFAULTS---*/
+
 *
 {
 margin:0;
 padding:0;
+}
+
+body
+{
+  background:-moz-radial-gradient(center, ellipse cover, rgba(237,245,247,1)
+    0%, rgba(237,245,247,1) 20%, rgba(227,239,242,1) 20%, rgba(227,239,242,1) 40%, rgba(218,233,237,1)
+    40%, rgba(218,233,237,1) 60%, rgba(206,225,229,1) 60%, rgba(206,225,229,1) 80%, rgba(192,218,224,1)
+    80%, rgba(192,218,224,1) 100%);
+  background-repeat:no-repeat;
+  background-position: cover;
+  background-size: cover;
+  font-family:'Raleway', sans-serif;
+  font-size:1rem;
+}
+
+a
+{
+text-decoration:none;
+background-color:transparent;
+}
+
+/*---HEADER & NAV BAR---*/
+
+.NavContainer
+{
+
 }
 
 .HomePin
@@ -24,4 +52,52 @@ margin-left: 1em;
 z-index: 5001;
 transform: scale(0.8);
 top: -2em;
+}
+
+.NavButton
+{
+border: 0 none;
+padding: 0;
+margin: 0;
+position: relative;
+float: right;
+}
+
+.NavIcon{
+content: "";
+width: 16px;
+box-shadow: 0 -6px 0 1px,0 0 0 1px,0 6px 0 1px;
+color: #fff;
+}
+
+#MenuExpander
+{
+content: "";
+display: block;
+height: 3rem;
+width: 100%;
+}
+
+/*---Actions---*/
+[role="button"], a, area, button, input, label, select, summary, textarea
+{
+touch-action: manipulation;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]
+{
+    cursor: pointer;
+}
+
+button, select
+{
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
 }
