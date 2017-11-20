@@ -17,6 +17,7 @@ body
   background-size: cover;
   font-family:'Raleway', sans-serif;
   font-size:1rem;
+  line-height: 1.5;
 }
 
 a
@@ -76,8 +77,31 @@ content: "";
 display: block;
 height: 3rem;
 width: 100%;
+color:#E3EFF2;
 }
 
+.MenuItem
+{
+display: block;
+margin-left: 0;
+padding-left: 0;
+float: none;
+font-family: "Montserrat";
+font-size: 0.75rem;
+list-style: outside none none;
+font-size: 1.300rem;
+}
+
+.MenuLink
+{
+border-top: 1px dotted rgba(255, 255, 255, 0.1);
+line-height: 1.6;
+margin: 0;
+padding: 0.875rem 2.4rem 0.875rem 1.5625rem;
+white-space: normal;
+transition: all 0.3s ease 0s !important;
+}
+  
 /*---Actions---*/
 [role="button"], a, area, button, input, label, select, summary, textarea
 {
