@@ -56,7 +56,8 @@ a
   position: relative;
   float: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   margin-left: 1em;
   z-index: 5001;
   transform: scale(0.8);
