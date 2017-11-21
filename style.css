@@ -99,7 +99,10 @@ right: 2em;
     cursor: pointer;
 }
 .onclick-menu:focus .onclick-menu-content {
-    display: block;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    transition: visibility 0.5s;
 }
 .onclick-menu-content {
     position: absolute;
