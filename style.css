@@ -99,11 +99,15 @@ a
 
 .MenuVisible
 {
-  -webkit-transform: translateX(0);
+  -webkit-transform: translateX(-100%);
+}
+.MenuVisible:target
+{
+  -webkit-transform: translateX(-100%);
 }
 .MenuDisappear
 {
-  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(0);
 }
 
 .MenuItem
