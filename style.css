@@ -65,7 +65,7 @@ a
   background-position: center;
   margin-left: 1em;
   z-index: 5001;
-  transform: scale(0.8);
+  /*transform: scale(0.8);*/
 }
 
 .NavSection
