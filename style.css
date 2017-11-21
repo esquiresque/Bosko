@@ -88,6 +88,17 @@ top: 2em;
 right: 2em;
 }
 
+ul .NavIcon li
+{
+  position:relative;
+ display:none;
+}
+
+ul .Navicon:hover ul li
+{
+  display:block;
+}
+
 .MenuItem
 {
   display: block;
