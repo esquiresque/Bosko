@@ -36,7 +36,8 @@ a
 {
   background: #7e9b9f;
   height: 2rem;
-  margin-top: 2rem;
+  margin-top: 2rem auto;
+  width: 80%;
 }
 
 .HomePin
@@ -72,8 +73,8 @@ a
 
 .NavIcon{
   content: "";
-  width: 16px;
-  box-shadow: 0 -6px 0 1px,0 0 0 1px,0 6px 0 1px;
+  width: 20px;
+  box-shadow: 0 -9px 0 2px,0 0 0 2px,0 9px 0 2px;
   color: #fff;
 }
 
