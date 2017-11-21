@@ -103,12 +103,13 @@ a
 }
 .MenuVisible:target
 {
-  -webkit-transform: translateX(-100%);
-}
-.MenuDisappear
-{
   -webkit-transform: translateX(0);
 }
+
+/*.MenuDisappear
+{
+  -webkit-transform: translateX(0);
+}*/
 
 .MenuItem
 {
