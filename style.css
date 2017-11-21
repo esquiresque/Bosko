@@ -88,18 +88,24 @@ top: 2em;
 right: 2em;
 }
 
-nav ul ul li
-{
-  position:relative;
- display:none;
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+}
+.onclick-menu:before {
+    content: "";
+}
+.onclick-menu:focus .onclick-menu-content {
+    display: block;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+
+    display: none;
 }
 
-nav ul li:active ul li
-{
-  display:block;
-}
-
-.MenuItem
+/*.MenuItem
 {
   display: block;
   margin-left: 0;
@@ -109,7 +115,7 @@ nav ul li:active ul li
   font-size: 0.75rem;
   list-style: outside none none;
   font-size: 1.300rem;
-}
+}*/
 
 .MenuLink
 {
