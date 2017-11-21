@@ -109,13 +109,15 @@ right: 2em;
     right:0rem;
 }
 .onclick-menu ul li{
-  width:10rem;
-  height: 2rem;
+  width: 10rem;
+  height: 4rem;
   font-weight: 700;
   font-size: 1.5rem;
+  line-height: 4rem;
+  text-align: center;
 }
 .onclick-menu ul li a{
-  color:#fff;
+  color:#E3EFF2;
 }
 /*.MenuItem
 {
