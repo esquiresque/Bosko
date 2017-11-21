@@ -63,20 +63,14 @@ a
   transform: scale(0.8);
 }
 
-.NavButton
+.NavSection
 {
-  border: 0 none;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  float: right;
-  width: 2.5rem;
-  height: 7rem;
-  background: transparent;
-  margin-right:2rem;
+   Height: 4em;
+   top:2em;
 }
 
-.NavIcon{
+.NavIcon
+  {
   content: "";
   width: 100%;
   height: 100%;
@@ -86,25 +80,6 @@ a
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
-
-#MenuExpander
-{
-  content: "";
-  display: block;
-  height: 3rem;
-  width: 100%;
-  color:#E3EFF2;
-}
-
-.MenuVisible
-{
-  /*-webkit-transform: translateX(-100%);*/
-}
-.MenuVisible:target
-{
-  /*-webkit-transform: translateX(0);*/
-  color: red !important;
 }
 
 .MenuItem
