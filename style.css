@@ -98,6 +98,10 @@ a
   -webkit-transform: translateX(0);
 }
 
+.MenuVisible
+{
+  -webkit-transform: translateX(0);
+}
 .MenuDisappear
 {
   -webkit-transform: translateX(-100%);
