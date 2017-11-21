@@ -95,6 +95,9 @@ right: 2em;
 .onclick-menu:before {
     content: "";
 }
+.onclick-menu:hover {
+    cursor: pointer;
+}
 .onclick-menu:focus .onclick-menu-content {
     display: block;
 }
