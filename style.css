@@ -106,8 +106,17 @@ right: 2em;
     z-index: 1;
     display: none;
     background:rgba(104, 132, 135, 0.9) none repeat scroll 0 0;
+    right:0rem;
 }
-
+.onclick-menu-content ul li{
+  width:10rem;
+  height: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.onclick-menu-content ul li a{
+  color:#fff;
+}
 /*.MenuItem
 {
   display: block;
