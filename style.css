@@ -70,9 +70,10 @@ a
   margin: 0;
   position: relative;
   float: right;
-  width: 60px;
-  height: 100px;
+  width: 2.5rem;
+  height: 7rem;
   background: transparent;
+  margin-right:2rem;
 }
 
 .NavIcon{
@@ -84,6 +85,7 @@ a
   background-image: url('http://esquiresque.github.io/assets/images/MenuBtn.png');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 #MenuExpander
