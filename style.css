@@ -88,13 +88,13 @@ top: 2em;
 right: 2em;
 }
 
-ul .NavIcon li
+nav ul ul li
 {
   position:relative;
  display:none;
 }
 
-ul .Navicon:hover ul li
+nav ul li:active ul li
 {
   display:block;
 }
