@@ -1,4 +1,4 @@
-$('.slider');
+$('.slider').carousel();
 
 console.log($('.slider'));
 
