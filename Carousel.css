@@ -1,0 +1,18 @@
+div{
+	width: 640px; 
+}
+img.first_image{
+	width: 100%;
+	//this will make the div the same size as the image
+	//div height will be the same as image height
+}
+img.direction{
+	//style as you wish
+}
+div.caption_overlay{
+	//style as you wish
+	//I recommend:
+	padding: 15px; //or whatever you prefer, depending on the look you want to convey
+	background: rgba(0,0,0, 0.6);
+	color: white; //or something that contrasts with the black background;
+}
