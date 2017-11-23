@@ -52,6 +52,7 @@ a
   position: absolute;
   float: left;
   -webkit-animation: 1s ease-in shrink;
+  -moz-animation: 1s ease-in shrink;
 }
 
 @keyframes shrink{
