@@ -47,10 +47,16 @@ a
 
 .HomePin
 {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   position: absolute;
   float: left;
+  -webkit-animation: 1s ease-in shrink;
+}
+
+@keyframes shrink{
+  0%{transform: scale(1.2);}
+  100%{transform: scale(1);}
 }
 
 .HomePin a
